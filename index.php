@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Hello world</h1>
+<form action="telegram.php" method="POST">
+    <div class="form-group">
+        <input type="text" class="form-control" name="name" placeholder="Введите имя">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" name="phone" placeholder="Введите телефон">
+    </div>
+    <div class="form-group">
+        <textarea name="msg" placeholder="Введите сообщение"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Отправить</button>
+</form>
 </body>
 </html>
