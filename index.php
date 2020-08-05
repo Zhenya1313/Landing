@@ -17,10 +17,6 @@
     <div class="contact">Контакты</div>
 </div>
 
-
-
-
-
 <!--<form action="telegram.php" method="POST">-->
 <!--    <div class="form-group">-->
 <!--        <input type="text" class="form-control" name="name" placeholder="Введите имя">-->
