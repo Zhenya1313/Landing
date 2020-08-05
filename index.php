@@ -9,17 +9,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form action="telegram.php" method="POST">
-    <div class="form-group">
-        <input type="text" class="form-control" name="name" placeholder="Введите имя">
+<div class="menu">
+    <div class="active">
+     <div class="home">Home</div>
     </div>
-    <div class="form-group">
-        <input type="text" class="form-control" name="phone" placeholder="Введите телефон">
-    </div>
-    <div class="form-group">
-        <textarea name="msg" placeholder="Введите сообщение"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Отправить</button>
-</form>
+    <div class="services">Услуги</div>
+    <div class="contact">Контакты</div>
+</div>
+
+
+
+
+
+<!--<form action="telegram.php" method="POST">-->
+<!--    <div class="form-group">-->
+<!--        <input type="text" class="form-control" name="name" placeholder="Введите имя">-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <input type="text" class="form-control" name="phone" placeholder="Введите телефон">-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <textarea name="msg" placeholder="Введите сообщение"></textarea>-->
+<!--    </div>-->
+<!--    <button type="submit" class="btn btn-primary">Отправить</button>-->
+<!--</form>-->
 </body>
 </html>

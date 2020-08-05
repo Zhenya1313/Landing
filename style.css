@@ -1,0 +1,69 @@
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Style for "Rectangle" */
+    width: 100%;
+    height: 89px;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Style for "Rectangle" */
+    width: 90px;
+    height: 89px;
+    background-color: #ff3f40;
+
+}
+
+.home {
+    /* Style for "home" */
+    width: 43px;
+    height: 12px;
+    color: #e0e0e0;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "h, ome" */
+    letter-spacing: 0.49px;
+}
+
+.contact{
+    text-align: center;
+    /* Style for "portfolio" */
+    width: 83px;
+    height: 12px;
+    color: #e0e0e0;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "p, ortfoli" */
+    letter-spacing: 0.49px;
+
+}
+
+.services{
+    text-align: center;
+    /* Style for "about us" */
+    width: 83px;
+    height: 12px;
+    color: #e0e0e0;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "a, bout us" */
+    letter-spacing: 0.49px;
+}
+
+
