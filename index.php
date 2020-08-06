@@ -29,13 +29,13 @@
         <div class="send_form">
             <form action="telegram.php" method="POST">
                 <div class="form-group">
-                    <input type="text" class="name" name="name" placeholder="Введите имя">
+                    <input type="text" class="form-group name" name="name" placeholder="Введите имя">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="phone" name="phone" placeholder="Введите телефон">
+                    <input type="text" class="form-group phone" name="phone" placeholder="Введите телефон">
                 </div>
                 <div class="form-group">
-                    <textarea name="msg" class="message" placeholder="Введите сообщение"></textarea>
+                    <textarea name="msg" class="form-group message" placeholder="Введите сообщение"></textarea>
                 </div>
                 <button type="submit" class="btn">Отправить</button>
             </form>
